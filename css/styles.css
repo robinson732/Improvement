@@ -1,95 +1,14 @@
-/* styles.css */
 body {
-  font-family: "Arial", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f4f8;
+  background-color: aliceblue;
   color: #333;
 }
-
-h1,
-h2 {
+h1 h2 {
   color: #333;
   font-size: 28px;
   text-align: center;
   margin: 20px 0;
   font-weight: bold;
-}
-
-.intro {
-  text-align: center;
-  margin-top: 40px;
-}
-
-.intro img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  margin-top: 20px;
-}
-
-.hobbies {
-  margin: 20px;
-}
-
-h1 {
-  font-size: 24px;
-}
-
-.anime,
-.swimming,
-.dancing {
-  margin: 40px 10%;
-}
-
-.anime-img,
-.swimming-img,
-.dancing-img {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.anime-img img,
-.swimming-img img,
-.dancing-img img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
-}
-
-.anime-img img:hover,
-.swimming-img img:hover,
-.dancing-img img:hover {
-  transform: scale(1.05);
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.5;
-  max-width: 600px;
-  margin: 10px auto;
-  color: #555;
-}
-
-@media (max-width: 768px) {
-  .anime,
-  .swimming,
-  .dancing {
-    margin: 20px;
-  }
-  .intro img {
-    width: 250px;
-    height: 250px;
-  }
-  .anime-img img,
-  .swimming-img img,
-  .dancing-img img {
-    width: 250px;
-    height: 250px;
-  }
 }

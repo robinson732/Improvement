@@ -48,3 +48,15 @@ h1 {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, green, blue, alpha);
 }
+.anime-img img:hover,
+.swimming-img img:hover,
+.dancing-img img:hover {
+  transform: matrix();
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 680px;
+  margin: 10px auto;
+  color: #333;
+}
